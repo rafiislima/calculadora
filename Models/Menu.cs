@@ -80,7 +80,9 @@ namespace bootcamp.Models
                     case 6:
                         Submenu();
                         break;
-              
+                    default:
+                        Console.WriteLine("Opção inválida! Tente novamente");
+                        break;
 
                }
                 
@@ -149,6 +151,10 @@ namespace bootcamp.Models
 
                         calc.Tangente(x);
 
+                        break;
+
+                    default:
+                        Console.WriteLine("Opção inválida! Tente novamente");
                         break;
 
 
